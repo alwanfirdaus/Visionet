@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Mall</name>
+   <tag></tag>
+   <elementGuidId>ba68fd7f-217b-4c67-aefb-b113123c7ad8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='MallID']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-sm arataka-ipt-required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>MallID</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--No Choose--Arya DutaBandung Indah PlazaBellanova Country MallBenton JunctionBinjai SupermallBintaro Jaya XchangeBlu PlazaCentral PlazaCibubur JunctionCikarang City WalkCimanggis SquareCity of TomorrowDepok Town SquareDuta Plaza BaliGajah Mada PlazaGrand Mall BekasiGrand Palladium MedanIstana PlazaKediri Town SquareKudus Extension MallLippo Mall KemangLippo Mall KutaLippo Mall PuriLippo Plaza BatuLippo Plaza Bogor ExtensionLippo Plaza ButonLippo Plaza Ekalokasari BogorLippo Plaza JakabaringLippo Plaza JambiLippo Plaza JemberLippo Plaza JogjaLippo Plaza Keboen Raya BogorLippo Plaza KendariLippo Plaza Kramat JatiLippo Plaza KupangLippo Plaza Lubuk LinggauLippo Plaza ManadoLippo Plaza MedanLippo Plaza SidoarjoLippo Plaza SunsetMalang Town SquareMall GTC MakassarMall Lippo CikarangMall of SerangMall WTC MatahariMaxx Box Lippo VillageMaxx Box Orange CountyMega Town Square PalangkarayaMetropolis Town SquarePalembang IconPalembang SquarePalembang Square ExtensionPejaten VillagePlaza GresikPlaza MadiunPlaza Medan FairPlaza PekalonganPlaza SemanggiPluit VillagePx PavillionStylesSun PlazaTamini Square</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MallID&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='MallID']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='WhatsOnCreateModal']/div/div/div/div/div[2]/div[3]/div[2]/div/fieldset/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/fieldset/select</value>
+   </webElementXpaths>
+</WebElementEntity>

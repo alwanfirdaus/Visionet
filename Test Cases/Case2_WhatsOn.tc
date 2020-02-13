@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Normal Flow</description>
+   <name>Case2_WhatsOn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6b0f50c-d502-4ff3-9465-bae6203267b2</testCaseGuid>
+</TestCaseEntity>

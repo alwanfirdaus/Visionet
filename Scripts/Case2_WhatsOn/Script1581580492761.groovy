@@ -40,7 +40,8 @@ WebUI.uploadFile(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/in
 
 WebUI.setText(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/input__WhatsOnName'), "Testing Whats On Automated");
 
-WebUI.
+WebUI.setText(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/input__PhoneNumber'), "08888888888888888888888888888888888888888888888888");
+
 
 
 

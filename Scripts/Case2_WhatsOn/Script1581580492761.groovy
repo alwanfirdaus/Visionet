@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/input
 WebUI.setText(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/input_Type your username and password_inputPassword'), 'Password1!');
 
 //WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Sign In'));
-//Pakai ENTER Keyboard
+'Pakai ENTER Keyboard'
 WebUI.sendKeys(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Sign In'), Keys.chord(Keys.ENTER));
 
 WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/a_Menu'));
@@ -42,11 +42,35 @@ WebUI.setText(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/in
 
 WebUI.setText(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/input__PhoneNumber'), "08888888888888888888888888888888888888888888888888");
 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Mall'), "Bandung Indah Plaza", false);
+ 
+'Verifying the Option is Selected by Index option' 
+WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Mall'), "Bandung Indah Plaza", false, 30);
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Tenant'), "Manzone", false);
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Tenant'), "Manzone", false, 30);
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Promotions                                                Event'), "Event", false);
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Promotions                                                Event'), "Event", false, 30);
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Books Toys  HobbiesHealth  Beauty'), "Sports", false);
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/select_Books Toys  HobbiesHealth  Beauty'), "Sports", false, 30);
+
+//WebUI.click(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/div_End Date_input-group-text'));
+
+CustomKeywords.'framework.component.handleDatepicker'(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/div_End Date_input-group-text'), '31', '12', '2019')
+
+
+
+//<input type="text" class="form-control form-control-sm datetimepicker-input" data-toggle="datetimepicker" data-target="#EndDate">
 
 
 
 WebUI.takeScreenshot();
 
-WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Save'));
+//WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Save'));
 
 WebUI.closeBrowser();

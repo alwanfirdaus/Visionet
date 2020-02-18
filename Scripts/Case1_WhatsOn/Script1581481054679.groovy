@@ -131,6 +131,10 @@ WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/div_Please fill empty form'), 20);
 
+WebUI.executeJavaScript("alert('Done test')", null)
+
+WebUI.delay(5)
+
 WebUI.takeScreenshot();
 
 WebUI.closeBrowser();

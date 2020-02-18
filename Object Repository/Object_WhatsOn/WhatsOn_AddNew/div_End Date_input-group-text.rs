@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='EndDate']/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;EndDate&quot;)/div[@class=&quot;input-group-append&quot;]/div[@class=&quot;input-group-text&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

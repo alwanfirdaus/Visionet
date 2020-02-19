@@ -126,8 +126,14 @@ WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/a_Menam
 WebUI.uploadFile(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/input_Choose Image_ImageBase64'), 'C:\\Users\\Lenovo\\Downloads\\Lippo Mall Puri.jpeg');
 
 WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Save'));
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/div_Please Insert Images  Thumbnail'), 20);
 //enter pakai keyboard
 //WebUI.sendKeys(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Save'), Keys.chord(Keys.ENTER));
+
+WebUI.uploadFile(findTestObject('Object Repository/Object_WhatsOn/WhatsOn_AddNew/input_Choose Thumbnail_ImageThumbnailBase64'), 'C:\\Users\\Lenovo\\Downloads\\Lippo Mall Puri.jpeg');
+
+WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/button_Save'));
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/div_Please fill empty form'), 20);
 

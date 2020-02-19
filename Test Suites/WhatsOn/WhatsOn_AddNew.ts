@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Validasi Empty Field</description>
-   <name>Test1_WhatsOn</name>
+   <description></description>
+   <name>WhatsOn_AddNew</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>96fb6870-ff51-42d9-90e3-59f350fe2ec3</testSuiteGuid>
+   <testSuiteGuid>1d555fa5-520d-4f0a-bc93-e2c2c5a7d16a</testSuiteGuid>
    <testCaseLink>
-      <guid>83992228-2ef1-48ae-a176-44d1548526ba</guid>
+      <guid>90e41ac5-0f58-472c-b596-52e3d7974c50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case1_WhatsOn</testCaseId>
+      <testCaseId>Test Cases/Case2_WhatsOn</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

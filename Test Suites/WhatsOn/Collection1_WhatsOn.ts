@@ -13,7 +13,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/WhatsOn/Test1_WhatsOn</testSuiteEntity>
+         <testSuiteEntity>Test Suites/WhatsOn/WhatsOn_ValidasiEmptyField</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -21,8 +21,8 @@
             <profileName>default</profileName>
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/WhatsOn/Test1_WhatsOn</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/WhatsOn/WhatsOn_ValidasiEmptyField</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -30,8 +30,17 @@
             <profileName>default</profileName>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/WhatsOn/WhatsOn_ValidasiEmptyField</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/WhatsOn/Test1_WhatsOn</testSuiteEntity>
+         <testSuiteEntity>Test Suites/WhatsOn/WhatsOn_AddNew</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

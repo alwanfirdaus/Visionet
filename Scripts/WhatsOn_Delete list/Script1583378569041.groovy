@@ -12,13 +12,12 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.SelectorMethod
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import java.util.Random
-import java.util.ArrayList
 
 
 WebUI.openBrowser('https://picdevweb.vnetcloud.com/styles/')
@@ -37,36 +36,44 @@ WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/a_Menu'
 
 WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_Styles/a_ Whats On'))
 
-//WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Look'))
+button_look = WebUI.modifyObjectProperty(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Look'), "num", "equals", "3", true)
 
-//def z = ["a", "b", "c", "d", "e"]
-//Random rnd = new Random()
-// 
-//for (i=0; i < 10; i++) {
-//   println(z[rnd.nextInt(z.size)])
-//}
+WebUI.click(button_look)
 
-//int optionListLength = 10
-//Random rand = new Random()
-//int index = rand.nextInt(optionListLength + 1)
-//
-//WebUI.selectOptionByIndex(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Look'), rand)
-//
-//if (rand == true){
-//	WebUI.executeJavaScript('alert("Sukses Testing")', null)
-//}
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_'))
 
+
+//'pilihan berdasarkan edit melalui script berdasarkan key method "atribut"'
 //new_btn = WebUI.modifyObjectProperty(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Inactive'), 'num', 'equals', "1", true)
 //
 //WebUI.click(new_btn)
 //
-//WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Inactive'))
-//
 //WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Ok'))
 
-WebUI.delay(10)
+
+
+'untuk mengambil object dari elementnya'
+TestObject button_InActive = findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Inactive')
+
+'fungsi random nya'
+int randomInt = new Random().nextInt(5 - 1 + 1) + 1
+
+'Change value of XPATH selector'
+button_InActive.setSelectorValue(SelectorMethod.XPATH, "//*[@id=\"WhatsOnAppendList\"]/div["+randomInt+"]/center/div/button[2]")
+
+//dari INSPECT
+////*[@id="WhatsOnAppendList"]/div[1]/center/div/button[2]
+//ASLI dari spyweb
+//(//button[@type='button'])[3]
+
+WebUI.click(button_InActive)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Object_WhatsOn/Page_InActive/button_Ok'))
+
+
 
 WebUI.closeBrowser()
-

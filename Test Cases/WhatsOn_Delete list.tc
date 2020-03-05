@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Delete list Whats On</description>
-   <name>Case3_WhatsOn</name>
+   <name>WhatsOn_Delete list</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>97599920-4e26-4c5d-8df8-332c36d01b85</testCaseGuid>

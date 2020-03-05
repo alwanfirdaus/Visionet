@@ -14,6 +14,6 @@
       <guid>83992228-2ef1-48ae-a176-44d1548526ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case1_WhatsOn</testCaseId>
+      <testCaseId>Test Cases/WhatsOn_Validasi empty field</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Validasi empty field</description>
-   <name>Case1_WhatsOn</name>
+   <name>WhatsOn_Validasi empty field</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e23dd021-30f3-436c-a4a8-7b6275c51a09</testCaseGuid>

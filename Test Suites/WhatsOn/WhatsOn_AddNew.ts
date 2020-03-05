@@ -14,6 +14,6 @@
       <guid>90e41ac5-0f58-472c-b596-52e3d7974c50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case2_WhatsOn</testCaseId>
+      <testCaseId>Test Cases/WhatsOn_Normal Flow</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

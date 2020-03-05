@@ -6,15 +6,19 @@
    <elementGuidId>6d334495-f729-41df-84f1-b3af48b25cc9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @num = '0' and (text() = ' Inactive' or . = ' Inactive')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = ' Inactive' or . = ' Inactive')]</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[0]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <value>btn btn-sm arataka-btn-default WhatsOninactive</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>num</name>
       <type>Main</type>

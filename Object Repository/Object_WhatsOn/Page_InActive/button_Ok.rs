@@ -6,12 +6,12 @@
    <elementGuidId>c06e1665-c2ee-4a11-9a5c-dea1d5eded3b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[30]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and @class = 'btn btn-link dialogConfirm' and (text() = ' Ok' or . = ' Ok')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[30]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
